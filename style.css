@@ -1,0 +1,30 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/d3/64/2d/d3642df0c9ce5b05e10c1682cd542be9.jpg);
+}
+
+h1{
+    color: aqua;
+    font-weight: bolder;
+    background-color: antiquewhite;
+    opacity: 90%;
+}
+
+#sketch_name{
+    color: cadetblue;
+    font-weight: 20%;
+    font-size: 20%;
+}
+
+#show_sketch{
+    float: right;
+}
+
+canvas{
+    border: 5px dotted cornflowerblue;
+    border-radius: 20%;
+    margin-top: 100px;
+    box-shadow: 5px 5px 5px cyan;
+    animation-name: caja;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
